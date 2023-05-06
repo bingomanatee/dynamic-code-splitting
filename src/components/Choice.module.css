@@ -1,0 +1,23 @@
+.main {
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+}
+
+.choice > div {
+  flex-basis: 50%;
+  margin: 1em;
+}
+
+.choice button {
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+  min-width: 200px;
+  margin: 1em 0;
+}
